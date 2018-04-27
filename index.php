@@ -536,7 +536,7 @@
                         Source Code : <a target="_blank"
                                      href="https://github.com/parsicoin/blockchain-explorer"><i
                             class="fa fa-github"></i> ParsiCoin Blockchain Explorer</a>
-                        v. 0.9.2<br/>
+                        Beta<br/>
                         <span class="text-muted">Licensed<strong> Under</strong>
 					<a href="https://opensource.org/licenses/gpl-license"> GPL</a></span>
                     </small>
