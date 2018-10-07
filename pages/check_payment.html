@@ -206,7 +206,7 @@
 				wrongParamAlert(data.error.message);
 			  } else {
 				var result = data.result;
-				$("#receivedAmount").html(getReadableCoins(result.amount,12));
+				$("#receivedAmount").html(getReadableCoins(result.amount,8));
 				
 				var outputResults = result.outputs;
 				for (var i = 0; i < outputResults.length; i++){
@@ -251,7 +251,7 @@
 				wrongParamAlert(data.error.message);
 			  } else {
 				var result = data.result;
-				$("#receivedAmount").html(getReadableCoins(result.amount,12));
+				$("#receivedAmount").html(getReadableCoins(result.amount,8));
 				
 				var outputResults = result.outputs;
 				for (var i = 0; i < outputResults.length; i++){
