@@ -1,5 +1,5 @@
-var api = 'http://94.156.189.94:18230';
+var api = 'http://explorer.parsicoin.net:18240';
 var blockTargetInterval = 120;
-var coinUnits = 100000000;
+var coinUnits = 1000000000000;
 var symbol = 'PARS';
 var refreshDelay = 30000;

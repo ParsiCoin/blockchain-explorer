@@ -2,7 +2,7 @@
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_URL, 'http://94.156.189.94:18230/getinfo');
+curl_setopt($ch, CURLOPT_URL, 'http://explorer.parsicoin.net:18240/getinfo');
 $result = curl_exec($ch);
 $obj = json_decode($result, TRUE);
 curl_close($ch);
