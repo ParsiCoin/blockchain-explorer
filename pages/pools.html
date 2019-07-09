@@ -52,7 +52,7 @@
 							<i class="fa fa-unlock-alt"></i> Difficulty
 						</li>
 						
-						<li class="list-group-item d-flex justify-content-between align-items-center" data-toggle="tooltip" data-placement="top" data-original-title="Difficulty for next block. Ratio at which at the current hashing speed blocks will be mined with 4 minutes interval.">
+						<li class="list-group-item d-flex justify-content-between align-items-center" data-toggle="tooltip" data-placement="top" data-original-title="Difficulty for next block. Ratio at which at the current hashing speed blocks will be mined with 2 minutes interval.">
 							Current: <span id="networkDifficulty"></span>
 						</li>
 						
@@ -129,32 +129,6 @@
         <tbody id="pools_rows">
         </tbody>
     </table>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="col-md-2">
-			<input type="range" min="90000" max="2100000" value="300000" step="10000" onchange="changBigHashrate(event)">
-		</div>
-	</div>
-</div>
-<div class="container">
-        <div class="row">
-			<div class="col-lg-6 col-md-6">
-				<canvas id="poolsChart" style="margin: 0 auto;"></canvas>
-			</div>
-			<div class="col-lg-6 col-md-6">
-				<canvas id="poolsSmallChart" style="margin: 0 auto;"></canvas>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-6 col-md-6">
-				<canvas id="bigMinersChart" style="margin: 0 auto;"></canvas>
-			</div>
-			<div class="col-lg-6 col-md-6">
-				<canvas id="smallMinersChart" style="margin: 0 auto;"></canvas>
-			</div>
-		</div>
 </div>
 
 <br />
