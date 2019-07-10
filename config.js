@@ -9,8 +9,7 @@ var nightTheme = "css/themes/dark-theme.css";
 // pools stats by MainCoins
 var poolsStat = 
 	[
-		["pool.parsicoin.net", "https://pool.parsicoin.net:8117/stats"],
-		["pars.pool-pay.com", "http://pars.pool-pay.com:8117/stats"],
+		["pool.parsicoin.net", "https://pool.parsicoin.net:8119/stats"],
 		["pars.ms-pool.net.ua", "http://pars.ms-pool.net.ua:8117/stats"]
     ];
 var nodesStat = 
