@@ -1,7 +1,7 @@
 <?php
-$node = 'https://node.parsicoin.net';
+$node = 'https://us.parsicoin.net';
 return array(
-	'api' => 'https://node.parsicoin.net',
+	'api' => 'https://us.parsicoin.net',
 	'blockTargetInterval' => 120,
 	'coinUnits' => 1000000000000,
 	'coinDecimals' => 12
