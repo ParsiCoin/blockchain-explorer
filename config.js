@@ -1,5 +1,5 @@
-var api = 'https://us.parsicoin.net';
-var apiList = ["http://eu.parsicoin.net", "https://node.parsicoin.net", "https://us.parsicoin.net"];
+var api = 'https://node.parsicoin.net';
+var apiList = ["https://node.parsicoin.net", "http://pool.parsicoin.net:18240", "http://wallet.parsicoin.net:18240"];
 var blockTargetInterval = 120;
 var coinUnits = 1000000000000;
 var symbol = 'PARS';
@@ -14,9 +14,8 @@ var poolsStat =
     ];
 var nodesStat = 
 	[
-        ["http://parsicoin.net:18240"],
         ["https://node.parsicoin.net"],
-        ["https://eu.parsicoin.net"],
-		["https://us.parsicoin.net"],
-		["http://ir.parsicoin.net:18240"]
+        ["http://wallet.parsicoin.net:18240"],
+        ["http://pool.parsicoin.net:18240"],
+		["http://49.12.79.1:18240"]
     ];
